@@ -1,0 +1,35 @@
+/* Perfil Layout */
+.perfil{
+    width: 100vw;
+    height: 80px;
+    // border-bottom: 1px solid $gray;
+} 
+
+.perfil h5{
+    font-family: $primary-font;
+    color: $black;
+    font-size: $x-large;
+    font-weight: $fw-bold;
+    margin: 0;
+}
+
+.perfil p{
+    font-family: $secondary-font;
+    color: $gray;
+    font-size: $small;
+    font-weight: $fw-regular;
+    margin: 0;
+}
+
+.perfil__usuario-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 30px;
+}
+
+/* Main Layout */
+.main__img{
+    width: 100%;
+    height: auto;
+}

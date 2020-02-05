@@ -1,6 +1,9 @@
 /* Header Layout */
 header{
-    height: 300px;
-    width: 100%;
-    background-color: $black;
+    width: 100vw;
+    height: 200px;
+    background-image: url('../img/image-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
 }
