@@ -19,25 +19,28 @@
 
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white text-dark container">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white text-dark container p-3">
+        <a class="navbar-brand" href=""><img class="navbar__logo-empresa" src="assets/img/logo.svg" alt="Home"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-search nav__lista-icono"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#"><i class="fas fa-video nav__lista-icono"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a class="nav-link" href="#"><i class="fas fa-plus nav__lista-icono"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#"><i class="far fa-bell nav__lista-icono"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-bars nav__lista-icono"></i></a>
                 </li>
             </ul>
         </div>
@@ -49,51 +52,118 @@
     <!-- END HEADER -->
 
     <!-- PERFIL -->
-    <section class="perfil d-flex align-items-center">
-        <div class="container d-flex justify-content-between">
-            <!-- USUARIO -->
-            <div class="media d-flex align-items-center">
-                <img class="mr-3 perfil__usuario-img" src="assets/img/profile-image.png" alt="Yuki Mukami">
-                <div class="media-body">
-                    <h5 class="mt-0">Yuki Mukami</h5>
-                    <p>30.000 seguidores</p>
-                </div>
-            </div>
-            <!-- BOTONERA -->
-            <div class="perfil__botonera d-flex align-items-center">
-                <button class="perfil__botonera-danger d-none d-md-block">Mensaje</button>
-                <button class="perfil__botonera-primary ml-2 d-none d-md-block">Seguir</button>
+    <section id="perfil" class="container">
+
+        <!-- USUARIO DESKTOP-->
+        <div class="media perfil__usario">
+            <img class="perfil__usuario-img d-none d-md-block" src="assets/img/profile-image.png" alt="Yuki Mukami">
+            <div class="media-body">
+                <h5 class="perfil__usuario-titulo d-none d-md-block">Yuki Mukami</h5>
+                <p class="perfil__usuario-bajada d-none d-md-block">30.000 seguidores</p>
             </div>
         </div>
+
+        <!-- USUARIO MOBILE -->
+        <div class="media perfil__usario mt-4">
+            <img class="perfil__usuario-img d-block d-md-none" src="assets/img/profile-image.png" alt="Yuki Mukami">
+            <div class="media-body">
+                <h5 class="perfil__usuario-titulo d-block d-md-none">Yuki Mukami</h5>
+                <p class="perfil__usuario-bajada d-block d-md-none">30.000 seguidores</p>
+            </div>
+        </div>
+
+        <!-- BOTONERA -->
+        <div class="perfil__botonera">
+            <button class="perfil__botonera-danger d-none d-md-block">Mensaje</button>
+            <button class="perfil__botonera-primary ml-2 d-none d-md-block">Seguir</button>
+        </div>
+
     </section>
     <!-- PERFIL END -->
 
     <hr style="margin: 0;" class="d-none d-md-block">
 
     <!-- MAIN -->
-    <main>
-        <div class="container">
+    <main id="contenido" class="container">
+        <h1 class="contenido__titulo text-center text-sm-left">Videos populares</h1>
 
-            <div class="video col-12 col-md-3 p-0">
-                <img class="main__img" src="assets/img/image-1.png" alt="">
-                <h2>Después de la vela - Yuki
-                    Mukami</h2>
-                <p>16k vistas - 1 semana atrás</p>
+        <div class="row pb-3">
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
             </div>
-
-
-
-
-
-
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3">
+                <div class="card contenido__card mt-3">
+                    <img class="card-img-top contenido__card-img" src="assets/img/image-2.png" alt="">
+                    <div class="card-body p-0">
+                        <h2 class="card-text contenido__card-titulo">Far Away - Yuki Mukami</h2>
+                        <p class="contenido__card-bajada">100k vistas - 1 mes atrás</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
-
-
-
-
-
-
+    <!-- END MAIN -->
+    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

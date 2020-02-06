@@ -1,25 +1,47 @@
 /* Header Layout */
+.navbar__logo-empresa {
+  width: auto;
+  height: 1.875rem; }
+
+.nav__lista-icono {
+  color: #000 !important; }
+  .nav__lista-icono:hover {
+    color: #999 !important;
+    text-decoration: none !important; }
+  .nav__lista-icono:active {
+    color: #999 !important; }
+  .nav__lista-icono:link {
+    color: #000 !important; }
+
+/* Header Layout */
 header {
   width: 100vw;
-  height: 200px;
+  height: 12.5rem;
   background-image: url("../img/image-banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80%; }
 
 /* Perfil Layout */
-.perfil {
+#perfil {
   width: 100vw;
-  height: 80px; }
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
-.perfil h5 {
+.perfil__usario {
+  display: flex !important;
+  align-items: center !important; }
+
+.perfil__usuario-titulo {
   font-family: "Montserrat", sans-serif;
   color: #000;
   font-size: 20px;
   font-weight: 700;
   margin: 0; }
 
-.perfil p {
+.perfil__usuario-bajada {
   font-family: "Open Sans", sans-serif;
   color: #999;
   font-size: 14px;
@@ -27,16 +49,61 @@ header {
   margin: 0; }
 
 .perfil__usuario-img {
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   border-radius: 100%;
-  margin-right: 30px; }
+  margin-right: 1.5rem; }
 
 /* Main Layout */
-.main__img {
+.contenido__titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 25px;
+  font-weight: 500;
+  margin: 1.875rem 0; }
+
+.contenido__card {
+  border: none !important; }
+
+.contenido__card-img {
   width: 100%;
-  height: auto; }
+  height: auto;
+  border-radius: 0 !important; }
+
+.contenido__card-titulo {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0.938rem; }
+
+.contenido__card-bajada {
+  font-family: "Open Sans", sans-serif;
+  color: #999;
+  font-size: 16px;
+  font-weight: 400; }
 
 /* Perfil Layout */
+.perfil__botonera {
+  display: flex !important;
+  align-items: center !important; }
+
+.perfil__botonera-danger {
+  border: none;
+  background-color: #92DCE5;
+  height: 1.875rem;
+  width: 5.313rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff; }
+
+.perfil__botonera-primary {
+  border: none;
+  background-color: #EF6461;
+  height: 1.875rem;
+  width: 5.313rem;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

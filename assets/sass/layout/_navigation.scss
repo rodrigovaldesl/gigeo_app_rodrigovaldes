@@ -1,0 +1,22 @@
+/* Header Layout */
+.navbar__logo-empresa{
+    width: auto;
+    height: 1.875rem;
+}
+
+.nav__lista-icono{
+    color: $black!important;
+
+    &:hover{
+        color: $gray!important;
+        text-decoration: none!important;
+    }
+
+    &:active{
+        color: $gray!important
+    }
+
+    &:link{
+        color: $black!important
+    }
+}

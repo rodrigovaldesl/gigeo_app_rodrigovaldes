@@ -1,11 +1,18 @@
 /* Perfil Layout */
-.perfil{
+#perfil{
     width: 100vw;
-    height: 80px;
-    // border-bottom: 1px solid $gray;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 } 
 
-.perfil h5{
+.perfil__usario{
+    display: flex!important;
+    align-items: center!important;
+}
+
+.perfil__usuario-titulo{
     font-family: $primary-font;
     color: $black;
     font-size: $x-large;
@@ -13,7 +20,7 @@
     margin: 0;
 }
 
-.perfil p{
+.perfil__usuario-bajada{
     font-family: $secondary-font;
     color: $gray;
     font-size: $small;
@@ -22,14 +29,42 @@
 }
 
 .perfil__usuario-img{
-    width: 60px;
-    height: 60px;
+    width: 3.75rem;
+    height: 3.75rem;
     border-radius: 100%;
-    margin-right: 30px;
+    margin-right: 1.5rem;
 }
 
 /* Main Layout */
-.main__img{
+.contenido__titulo{
+    font-family: $primary-font;
+    color: $black;
+    font-size: $xx-large;
+    font-weight: $fw-medium; 
+    margin: 1.875rem 0;
+}
+
+.contenido__card{
+    border: none!important;
+}
+
+.contenido__card-img{
     width: 100%;
     height: auto;
+    border-radius: 0!important;
+}
+
+.contenido__card-titulo{
+    font-family: $primary-font;
+    color: $black;
+    font-size: $large;
+    font-weight: $fw-bold;
+    margin-top: 0.938rem;
+}
+
+.contenido__card-bajada{
+    font-family: $secondary-font;
+    color: $gray;
+    font-size: $medium;
+    font-weight: $fw-regular;
 }

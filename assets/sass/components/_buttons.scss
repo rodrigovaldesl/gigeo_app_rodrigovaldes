@@ -1,12 +1,25 @@
 /* Perfil Layout */
 .perfil__botonera{
-
+    display: flex!important;
+    align-items: center!important;
 }
 
 .perfil__botonera-danger{
-
+    border: none;
+    background-color: $primary;
+    height: 1.875rem;
+    width: 5.313rem;
+    font-weight: $fw-regular;
+    font-size: $medium;
+    color: $white;
 }
 
 .perfil__botonera-primary{
-
+    border: none;
+    background-color: $danger;
+    height: 1.875rem;
+    width: 5.313rem;
+    font-weight: $fw-regular;
+    font-size: $medium;
+    color: $white;
 }
