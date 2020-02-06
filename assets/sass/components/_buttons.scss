@@ -25,11 +25,10 @@
 }
 
 .perfil__botonera-danger{
-    // color: $black!important;
     transition-duration: 0.2s;
 
     &:hover{
-        background-color: $gray!important;
+        background-color: $primary-hover!important;
         text-decoration: none!important;
     }
 
@@ -43,11 +42,10 @@
 }
 
 .perfil__botonera-primary{
-    // color: $black!important;
     transition-duration: 0.2s;
 
     &:hover{
-        background-color: $gray!important;
+        background-color: $danger-hover!important;
         text-decoration: none!important;
     }
 

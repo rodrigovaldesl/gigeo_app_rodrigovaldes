@@ -117,7 +117,7 @@ header {
 .perfil__botonera-danger {
   transition-duration: 0.2s; }
   .perfil__botonera-danger:hover {
-    background-color: #999 !important;
+    background-color: #03D2E2 !important;
     text-decoration: none !important; }
   .perfil__botonera-danger:active {
     background-color: #999 !important; }
@@ -127,7 +127,7 @@ header {
 .perfil__botonera-primary {
   transition-duration: 0.2s; }
   .perfil__botonera-primary:hover {
-    background-color: #999 !important;
+    background-color: #ED0A0A !important;
     text-decoration: none !important; }
   .perfil__botonera-primary:active {
     background-color: #999 !important; }
