@@ -13,6 +13,10 @@
   .nav__lista-icono:link {
     color: #000 !important; }
 
+@media (max-width: 600px) {
+  nav {
+    padding-left: 50px !important;
+    padding-right: 50px !important; } }
 /* Header Layout */
 header {
   width: 100vw;
@@ -83,6 +87,10 @@ header {
   font-size: 16px;
   font-weight: 400; }
 
+@media (max-width: 600px) {
+  #contenido {
+    padding-left: 50px !important;
+    padding-right: 50px !important; } }
 /* Perfil Layout */
 .perfil__botonera {
   display: flex !important;
