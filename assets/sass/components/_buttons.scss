@@ -23,3 +23,39 @@
     font-size: $medium;
     color: $white;
 }
+
+.perfil__botonera-danger{
+    // color: $black!important;
+    transition-duration: 0.2s;
+
+    &:hover{
+        background-color: $gray!important;
+        text-decoration: none!important;
+    }
+
+    &:active{
+        background-color: $gray!important;
+    }
+
+    &:link{
+        background-color: $black!important;
+    }
+}
+
+.perfil__botonera-primary{
+    // color: $black!important;
+    transition-duration: 0.2s;
+
+    &:hover{
+        background-color: $gray!important;
+        text-decoration: none!important;
+    }
+
+    &:active{
+        background-color: $gray!important;
+    }
+
+    &:link{
+        background-color: $black!important;
+    }
+}
