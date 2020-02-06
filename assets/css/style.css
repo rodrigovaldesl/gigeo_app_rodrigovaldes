@@ -90,7 +90,10 @@ header {
 @media (max-width: 600px) {
   #contenido {
     padding-left: 50px !important;
-    padding-right: 50px !important; } }
+    padding-right: 50px !important; }
+
+  #perfil {
+    justify-content: center; } }
 /* Perfil Layout */
 .perfil__botonera {
   display: flex !important;
